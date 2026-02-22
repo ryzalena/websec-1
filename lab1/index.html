@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <div class="calc">
+            <form>
+                <input class="ramka" type ="number" id="num1" required>
+                <select class="sign ramka" id="operator">
+                    <option value="plus" selected>+</option>
+                    <option value="minus">-</option>
+                    <option value="multiplication">*</option>
+                    <option value="division">/</option>
+                </select>
+                <input class="ramka" type ="number" id="num2" required>
+            </form>
+
+            <div class="knopka">
+                <button class="ramka" id="calculateBtn">
+                    <p>подсчитать</p>
+                </button>
+            </div>
+
+            <div class="result-container ramka">
+                <div class="history" id="history"></div>
+                <div id="currentResult"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
