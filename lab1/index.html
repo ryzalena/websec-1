@@ -7,36 +7,33 @@
     <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-
     <main>
         <div class="calc">
             <form>
-                <input class="ramka" type ="number" id="num1" required>
-                <select class="sign ramka" id="operator">
-                    <option value="plus" selected>+</option>
-                    <option value="minus">-</option>
-                    <option value="multiplication">*</option>
-                    <option value="division">/</option>
+                <input class="border" type ="number" id="num1" required>
+                <select class="sign border" id="operator">
+                    <option value="+" selected>+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
                 </select>
-                <input class="ramka" type ="number" id="num2" required>
+                <input class="border" type ="number" id="num2" required>
             </form>
 
-            <div class="knopka">
-                <button class="ramka" id="calculateBtn">
+            <div class="button">
+                <button class="border" id="calculateBtn">
                     <p>подсчитать</p>
                 </button>
             </div>
 
-            <div class="result-container ramka">
-                <div class="history" id="history"></div>
-                <div id="currentResult"></div>
+            <div class="result-container border">
+                <p class="history" id="history"></p>
+                <p id="currentResult"></p>
             </div>
         </div>
 
     </main>
 
-    <footer></footer>
     <script src="script.js"></script>
 </body>
 </html>

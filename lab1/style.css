@@ -31,7 +31,7 @@ input[type="number"]:focus {
     -moz-appearance: textfield;
 }
 
-.ramka{
+.border{
     border: 1px dashed red;
     border-radius: 10px;
     background-color: #baffc2;
@@ -42,7 +42,7 @@ input[type="number"]:focus {
     font-size: 14px;
 }
 
-.knopka{
+.button{
     text-align: center;
     margin: 20px;
     margin-bottom: 25px;
@@ -78,4 +78,8 @@ button p {
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.history {
+    margin-top: 0;
 }
